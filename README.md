@@ -9,5 +9,40 @@ This code is taken from https://zhuanlan.zhihu.com/p/649997859
 >* an update step that fuses the prediction with noisy measurements (here, direct observations of both position and velocity).  
 >The code compares the filtered estimates with the true (simulated) states and the raw measurements, and plots the results.  
 # 1.Formula Derivation
+## 1.1 Prediction & Update
+### (1) Prediction
+<p align="center">
+    $$x_k^- =F \widetilde{x}  _ {k-1} + B u_ {k-1} $$  
+</p>  
+
+where  <br>
+$x_k^-$ is the predicted value of $x_k$;  <br>
+$\widetilde{x}$ is the optimal estimate value of $x_k$;  <br>
+
+<p align="center">
+    $$P_k^- =FP_{k-1}F^T+Q$$  
+</p>
+
+where  <br>
+$P_K^-$ is the prior error covariance matrix;  <br>
+$P_k$ is the posterior erreo covariance matrix;  <br>
+$Q$ is the process noise;  <br>
+### (2) Update
+<p align="center">
+    $$K=P_k^- H^T (HP_k^- H^T+R)^{-1}$$  
+</p>
+
+<p align="center">
+    $$\widetilde{x}_k =x_k^- +K(z_k -Hx_k^-)$$  
+</p>
+
+<p align="center">
+    $$P_k=(I-KH)P_k^-$$  
+</p>
+
+where  
+$K$ is Kalman gain;
+
+## 1.2 System Model
 
 # 2.Results
