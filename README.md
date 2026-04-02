@@ -1,5 +1,5 @@
 # Kalman-Filter
-This project is set up for the author himself to study Kalman Filter.
+This project is set up for the author himself to study Kalman Filter and how to publish content on GitHub.
 This code is taken from https://zhuanlan.zhihu.com/p/649997859
 >This code implements a Kalman filter for an object moving with constant acceleration.  
 >The state vector consists of position and velocity.  
