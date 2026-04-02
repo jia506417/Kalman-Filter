@@ -46,6 +46,7 @@ $K$ is Kalman gain;
 ## 1.2 System Model
 
 # 2.Results
-<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/f9023d7a-bee3-4ac6-a4e5-e71590c301af" />
-<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/8d05ef19-031b-47b6-ba84-201f5e4da88d" />
-
+<div align="center">
+<img width="480" height="360" alt="Figure_1" src="https://github.com/user-attachments/assets/f9023d7a-bee3-4ac6-a4e5-e71590c301af" /> <br>
+<img width="480" height="360" alt="Figure_2" src="https://github.com/user-attachments/assets/8d05ef19-031b-47b6-ba84-201f5e4da88d" /> <br>
+</div>
